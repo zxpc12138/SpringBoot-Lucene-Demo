@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>IK Analyzer 扩展配置</comment>
+	<!--用户可以在这里配置自己的扩展字典 -->
+	<!-- 扩展: 未分词或没有此词组,将会添加此词组到索引中去,可以匹配搜索成功 -->
+	<entry key="ext_dict">my.dic;</entry>  <!-- 扩展文件 -->
+
+	<!--用户可以在这里配置自己的扩展停止词字典 -->
+	<!-- 停词: 意为这个词将不会分词存入到索引中,搜索时忽略这个词去匹配别的词(eg: 我是中国人,停词 '我是',那么会根据'中国人'去搜索)-->
+	<entry key="ext_stopwords">stopword.dic</entry> <!-- 停词文件 -->
+</properties>
